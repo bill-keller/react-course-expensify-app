@@ -1,0 +1,5 @@
+yarn run dev-server
+yarn test -- --watch 
+
+git init
+git status
