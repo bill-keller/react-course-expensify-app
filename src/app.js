@@ -18,6 +18,7 @@ store.subscribe (() => {
 })
 
 store.dispatch(addExpense({description: 'water bill', amount: 4500}));
+store.dispatch(addExpense({description: 'electric bill', amount: 6000}));
 store.dispatch(addExpense({description: 'gas bill', amount: 4000, createdAt: 1000}));
 store.dispatch(addExpense({description: 'rent', amount: 109500}));
 
