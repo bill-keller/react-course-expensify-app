@@ -3,3 +3,7 @@ yarn test -- --watch
 
 git init
 git status
+
+git commit -am "message text"
+git push
+git push heroku master
