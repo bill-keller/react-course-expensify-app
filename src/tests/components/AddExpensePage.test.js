@@ -1,6 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import {AddExpense} from '../../components/AddExpense';
+import {AddExpensePage} from '../../components/AddExpensePage';
 import expenses from '../fixtures/expenses';
 
 let addExpense, history, wrapper;
@@ -8,7 +8,7 @@ let addExpense, history, wrapper;
 beforeEach(() => {
   addExpense = jest.fn();
   history = {push: jest.fn()};
-  wrapper = shallow(<AddExpense addExpense={addExpense} history={history} />);
+  wrapper = shallow(<AddExpensePage addExpense={addExpense} history={history} />);
 })
 
 test('should render AddExpens correctly', () => {
