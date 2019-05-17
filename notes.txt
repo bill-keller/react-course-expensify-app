@@ -8,3 +8,7 @@ git add .
 git commit -am "message text"
 git push
 git push heroku master
+
+heroku login
+heroku open
+heroku logs
