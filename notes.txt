@@ -12,3 +12,5 @@ git push heroku master
 heroku login
 heroku open
 heroku logs
+heroku config
+heroku config:set KEY=value
