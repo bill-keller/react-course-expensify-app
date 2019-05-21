@@ -4,7 +4,6 @@ import { startLogin } from '../actions/auth';
 
 export const LoginPage = ({startLogin}) => (
   <div>
-  yo diggity
     <button onClick={startLogin}>Login</button>
   </div>
 );
